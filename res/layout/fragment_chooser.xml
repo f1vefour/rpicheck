@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:showDividers="beginning|middle|end" >
+
+    <TextView
+        android:id="@+id/available_pis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available devices"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/piListView"
+        android:layout_width="match_parent"
+        android:layout_height="195dp" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/addPitextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add new Pi"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/preferencestextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preferences"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

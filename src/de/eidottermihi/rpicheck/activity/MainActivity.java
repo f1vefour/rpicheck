@@ -55,10 +55,10 @@ import de.eidottermihi.rpicheck.bean.QueryBean;
 import de.eidottermihi.rpicheck.bean.ShutdownResult;
 import de.eidottermihi.rpicheck.db.DeviceDbHelper;
 import de.eidottermihi.rpicheck.db.RaspberryDeviceBean;
-import de.eidottermihi.rpicheck.fragment.QueryErrorMessagesDialog;
-import de.eidottermihi.rpicheck.fragment.QueryExceptionDialog;
-import de.eidottermihi.rpicheck.fragment.RebootDialogFragment;
-import de.eidottermihi.rpicheck.fragment.RebootDialogFragment.ShutdownDialogListener;
+import de.eidottermihi.rpicheck.fragment.dialog.QueryErrorMessagesDialog;
+import de.eidottermihi.rpicheck.fragment.dialog.QueryExceptionDialog;
+import de.eidottermihi.rpicheck.fragment.dialog.RebootDialogFragment;
+import de.eidottermihi.rpicheck.fragment.dialog.RebootDialogFragment.ShutdownDialogListener;
 
 public class MainActivity extends SherlockFragmentActivity implements
 		ActionBar.OnNavigationListener, OnRefreshListener<ScrollView>,

@@ -1,4 +1,4 @@
-package de.eidottermihi.rpicheck.fragment;
+package de.eidottermihi.rpicheck.fragment.dialog;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

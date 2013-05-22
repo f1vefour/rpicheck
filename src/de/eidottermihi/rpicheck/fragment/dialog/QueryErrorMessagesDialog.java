@@ -1,7 +1,7 @@
 /**
  * 
  */
-package de.eidottermihi.rpicheck.fragment;
+package de.eidottermihi.rpicheck.fragment.dialog;
 
 import java.util.List;
 
