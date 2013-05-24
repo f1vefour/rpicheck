@@ -2,14 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="horizontal" >
 
     <fragment
+        android:id="@+id/chooser"
+        android:name="de.eidottermihi.rpicheck.fragment.ChooserFragment"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:tag="ChooserFragment" />
+    <fragment
         android:id="@+id/query_data"
         android:name="de.eidottermihi.rpicheck.fragment.QueryDataFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight="1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
         android:tag="QueryDataFragment" />
 
 </LinearLayout>
